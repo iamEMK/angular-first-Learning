@@ -1,0 +1,37 @@
+<!-- <hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<hr> -->
+<body>
+
+<div class="text">Home</div>
+<div class="text">Features</div>
+<div class="text">about</div>
+
+<hr>
+<mat-tab-group animationDuration="1000ms">
+<mat-tab label="First"> <app-button>emk</app-button>
+  <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
+  <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
+  <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
+</mat-tab>
+<mat-tab label="Second"> <app-button>Second</app-button>
+  <div class="emk">
+  <mat-card class="card">
+  <mat-card-title>emk</mat-card-title>
+  <mat-card-subtitle>to create a virtual world</mat-card-subtitle>
+  <mat-card-content>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat suscipit nulla ullam illo, quae eos sed dolor consequatur voluptatibus expedita repudiandae unde inventore eius dolorem molestias repellendus repellat hic vero?
+  Dolor eum saepe atque consectetur, illo culpa cumque at suscipit quaerat corporis omnis earum modi fuga explicabo incidunt quis. Accusamus cumque amet distinctio quod esse tempora, totam ullam quae natus?</mat-card-content>
+  <mat-card-actions><app-button>ok</app-button>
+    <app-button>cancel</app-button></mat-card-actions>
+<!--   
+    <mat-card-footer>Footer</mat-card-footer> -->
+  </mat-card>
+  </div>
+</mat-tab>
+<mat-tab label="Third"> <app-button>Third</app-button></mat-tab>
+</mat-tab-group>
+
+<div class="text">Hello</div>
+</body>
