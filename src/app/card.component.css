@@ -1,16 +1,9 @@
 
-.emk {
-  display: flex;
-  margin-top: 30px;
-  background-color: rgb(147, 187, 187);
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
 .card {
-  margin: 30px;
+  /* margin: 30px; */
   border-radius: 2px solid black;
   width: 300px;
+  /* height: 250px; */
   transition: all 0.4s;
 }
 .card:hover{
@@ -26,7 +19,7 @@
   list-style-type: none;
   display: grid;
   /* grid-template-columns: ; */
-  gap:30px;
+  /* gap:30px; */
   border:1px solid greenyellow;
 }
 .flex>ul>li{

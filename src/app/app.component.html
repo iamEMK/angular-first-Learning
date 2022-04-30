@@ -11,10 +11,13 @@
 
 <hr>
 <mat-tab-group animationDuration="1000ms">
-<mat-tab label="First"> <app-button>emk</app-button>
+<mat-tab label="First"> <app-button [isActive]="true">emk</app-button>
+  <app-button [isActive]="false">emk</app-button>
+  <app-cards>
   <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
   <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
   <app-card [title]="title" [subtitle]="subtitle" [footer]="footer"></app-card>
+  </app-cards>
 </mat-tab>
 <mat-tab label="Second"> <app-button>Second</app-button>
   <div class="emk">

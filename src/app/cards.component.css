@@ -1,0 +1,14 @@
+.emk {
+  display: flex;
+  margin-top: 30px;
+  background-color: rgb(147, 187, 187);
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3rem;
+  overflow-x: scroll;
+  scrollbar-width: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}

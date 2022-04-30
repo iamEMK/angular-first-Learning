@@ -10,9 +10,12 @@ import {ButtonComponent} from './button.component';
 import {MatCardModule} from '@angular/material/card';
 import {CardComponent} from './card.component';
 
+import {CardsComponent} from './cards.component';
+
+
 @NgModule({
   imports: [BrowserModule, FormsModule, MatTabsModule,BrowserAnimationsModule,MatButtonModule,MatCardModule],
-  declarations: [AppComponent, HelloComponent,ButtonComponent,CardComponent],
+  declarations: [AppComponent, HelloComponent,ButtonComponent,CardsComponent,CardComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

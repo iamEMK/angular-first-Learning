@@ -1,7 +1,7 @@
 button {
   margin-bottom: 30px;
 }
-*{
+* {
   /* background-color: rgb(147, 187, 187); */
   /* width: 100vw; */
   /* height: 100vh; */
@@ -26,10 +26,9 @@ button {
   transition: all 0.4s;
   /* z-index: ; */
 }
-.card:hover{
+.card:hover {
   /* transform: scale(1.02); */
   transform: translateY(-5px);
-  
 }
 @media only screen and (max-width: 720px) {
 }
@@ -39,22 +38,22 @@ button {
   list-style-type: none;
   display: grid;
   /* grid-template-columns: ; */
-  gap:30px;
-  border:1px solid greenyellow;
+  gap: 30px;
+  border: 1px solid greenyellow;
 }
-.flex>ul>li{
+.flex > ul > li {
   padding: 3px;
-  
-  border:1px solid greenyellow;
+
+  border: 1px solid greenyellow;
 }
-.text{
+.text {
   background-image: linear-gradient(
     transparent 0%,
     transparent 90%,
     hotpink 90%,
     hotpink 100%
   );
-  width:fit-content;
+  width: fit-content;
   background-repeat: no-repeat;
   background-size: 0% 100%;
   /* background-position-x: left; */
@@ -67,10 +66,10 @@ button {
   display: inline-block;
   margin: 5px 1.2rem;
   cursor: pointer;
+  backdrop-filter: blur(8px);
 }
 
-.text:hover{
+.text:hover {
   background-size: 100% 100%;
   background-position-x: left;
-  
 }
